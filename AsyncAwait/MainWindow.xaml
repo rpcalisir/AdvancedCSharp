@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AsyncAwait"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="768" Width="1024">
     <Grid Margin="20">
         <Grid.RowDefinitions>
             <RowDefinition Height="auto" />
@@ -23,6 +23,6 @@
         <Button x:Name="executeAsync" Grid.Row="3" Margin="10" Padding="20" FontSize="20" Click="executeAsync_Click">
             Async Execute
         </Button>
-        <TextBlock x:Name="resultsWindow" Grid.Row="4" Margin="10 0" FontSize="28" />
+        <TextBlock x:Name="resultsWindow" Grid.Row="4" Margin="10" FontSize="20" />
     </Grid>
 </Window>
