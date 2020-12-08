@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfacesConsoleUI", "Inte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfacesDemoLibrary", "InterfacesDemoLibrary\InterfacesDemoLibrary.csproj", "{0C52A2E9-853A-4054-879B-1A65AB3C0FF7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlDataAccessUI", "SqlDataAccessUI\SqlDataAccessUI.csproj", "{BC212A87-4067-4B8C-A496-DC5CB09CAF93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{0C52A2E9-853A-4054-879B-1A65AB3C0FF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C52A2E9-853A-4054-879B-1A65AB3C0FF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C52A2E9-853A-4054-879B-1A65AB3C0FF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC212A87-4067-4B8C-A496-DC5CB09CAF93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC212A87-4067-4B8C-A496-DC5CB09CAF93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC212A87-4067-4B8C-A496-DC5CB09CAF93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC212A87-4067-4B8C-A496-DC5CB09CAF93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
