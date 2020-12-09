@@ -1,11 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace SqlDataAccessUI
@@ -26,6 +20,18 @@ namespace SqlDataAccessUI
             people = db.GetPeopleByLastName(txtLastName.Text);
             lstBoxPeopleFound.DataSource = people;
             lstBoxPeopleFound.DisplayMember = "FullInfo";
+        }
+
+        private void btnInsert_Click(object sender, EventArgs e)
+        {
+            BusinessLayer db = new BusinessLayer();
+
+            db.InsertPeople(txtFirstNameInsert.Text, txtLastNameInsert.Text, txtEmailAddressInsert.Text, txtPhoneNumberInsert.Text);
+
+            txtFirstNameInsert.Text = "";
+            txtLastNameInsert.Text = "";
+            txtEmailAddressInsert.Text = "";
+            txtPhoneNumberInsert.Text = "";
         }
     }
 }
