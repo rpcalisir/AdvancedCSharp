@@ -50,7 +50,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DependencyInjectionLibrary\DependencyInversionLibrary.csproj">
+    <ProjectReference Include="..\DependencyInversionLibrary\DependencyInversionLibrary.csproj">
       <Project>{7c4a45cf-62a7-4968-8248-9dca147aec03}</Project>
       <Name>DependencyInversionLibrary</Name>
     </ProjectReference>
