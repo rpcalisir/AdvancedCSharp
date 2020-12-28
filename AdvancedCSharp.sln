@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInversionLibrary"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInversionUI", "DependencyInversionUI\DependencyInversionUI.csproj", "{A1C1AF6E-EFF7-4938-B632-88C4F23846D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjectionUI", "DependencyInjectionUI\DependencyInjectionUI.csproj", "{DAE1C3C7-6ED8-45B6-85E6-71500D2D467A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjectionLibrary", "DependencyInjectionLibrary\DependencyInjectionLibrary.csproj", "{968E77DC-C5C8-4C8B-B08D-6EE0D99A8A99}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{A1C1AF6E-EFF7-4938-B632-88C4F23846D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1C1AF6E-EFF7-4938-B632-88C4F23846D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1C1AF6E-EFF7-4938-B632-88C4F23846D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAE1C3C7-6ED8-45B6-85E6-71500D2D467A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAE1C3C7-6ED8-45B6-85E6-71500D2D467A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAE1C3C7-6ED8-45B6-85E6-71500D2D467A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAE1C3C7-6ED8-45B6-85E6-71500D2D467A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{968E77DC-C5C8-4C8B-B08D-6EE0D99A8A99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{968E77DC-C5C8-4C8B-B08D-6EE0D99A8A99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{968E77DC-C5C8-4C8B-B08D-6EE0D99A8A99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{968E77DC-C5C8-4C8B-B08D-6EE0D99A8A99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

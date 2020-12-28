@@ -11,7 +11,7 @@ namespace DependencyInversionUI
     {
         static void Main(string[] args)
         {
-            VehicleManager vehicleManager = new VehicleManager(new Plane());
+            VehicleManager vehicleManager = new VehicleManager(new Tank());
             vehicleManager.FireVehicle();
             vehicleManager.MoveVehicle();
 
