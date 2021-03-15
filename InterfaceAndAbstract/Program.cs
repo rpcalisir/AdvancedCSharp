@@ -1,4 +1,5 @@
 ﻿using InterfaceAndAbstract.Abstract;
+using InterfaceAndAbstract.Adapters;
 using InterfaceAndAbstract.Concrete.Manager;
 using InterfaceAndAbstract.Concrete.Validation;
 using InterfaceAndAbstract.Entities;
@@ -14,8 +15,8 @@ namespace InterfaceAndAbstract
     {
         static void Main(string[] args)
         {
-            BaseCustomerManager customerManager = new StarbucksCustomerManager(new CustomerCheckManager());
-            customerManager.Save(new Customer {FirstName = "Recep", LastName="Çalışır", DateOfBirth= new DateTime(1993,1,17), NationalityId = "38218197330" });
+            BaseCustomerManager customerManager = new StarbucksCustomerManager(new MernisServiceAdapter());
+            customerManager.Save(new Customer {FirstName = "Recep", LastName="Çalışır", DateOfBirth= new DateTime(1993,1,18), NationalityId = "38218197380" });
 
             Console.ReadLine();
         }
