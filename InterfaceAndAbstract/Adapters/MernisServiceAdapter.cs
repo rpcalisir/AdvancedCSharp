@@ -20,9 +20,8 @@ namespace InterfaceAndAbstract.Adapters
                     result = client.TCKimlikNoDogrula(Convert.ToInt64(customer.NationalityId), customer.FirstName, customer.LastName, customer.DateOfBirth.Year);
                 }
             }
-            catch(Exception ex)
+            catch
             {
-                Console.WriteLine(ex.Message);
                 result = false;
             }
             return result;
